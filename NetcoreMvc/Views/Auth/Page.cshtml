@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Mvc;
+@using Microsoft.AspNetCore.Http;
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor  _httpContextAccessor
+
+@{
+    ViewBag.Title = "Page";
+}
+
+
+@{
+    // basic points 18  data from Session
+    string userName = @_httpContextAccessor.HttpContext.Session.GetString("userName");
+}
+
+
+<h2>Welcome @userName</h2>

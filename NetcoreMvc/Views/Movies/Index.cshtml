@@ -1,0 +1,69 @@
+﻿@model IEnumerable<BasicASP.NETMvc.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Movies</h2>
+<p>
+
+    @* # homework 4 -- add button for redirected to create page *@
+    @Html.ActionLink("Creat New", "Create", "Movies")
+
+    @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
+    {
+    <p>
+    Genre: @Html.DropDownList("MovieGenre", "All")
+    Title: @Html.TextBox("SearchString")
+    <input type="submit" value="Filter" />
+</p>
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+
+        <th></th>
+    </tr>
+    @* # homework 2 -- show the movies on this site *@
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.ReleaseDate.ToString("yyyy-MM-dd")
+            </td>
+            <td>
+                @item.Genre
+            </td>
+            <td>
+                @item.Price
+            </td>
+            <td>
+                @item.Rating
+            </td>
+
+            <td>@Html.ActionLink("Edit", "Edit", "Movies", new{id=@item.ID})
+                |@Html.ActionLink("Details", "Details", "Movies", new{id=@item.ID})
+                |@Html.ActionLink("Delete", "Delete", "Movies", new{id=@item.ID})</td>
+        </tr>
+    }
+
+    @* # homework 6 -- add Edit,Details,Delete buttons every line and them shou link to action *@
+
+
+</table>
