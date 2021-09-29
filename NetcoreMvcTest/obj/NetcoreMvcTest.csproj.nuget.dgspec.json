@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj": {}
+    "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj": {}
   },
   "projects": {
-    "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj": {
+    "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
+        "projectUniqueName": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
         "projectName": "NetcoreMvc",
-        "projectPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
+        "projectPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
         "packagesPath": "/Users/haihong.lu/.nuget/packages/",
-        "outputPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/obj/",
+        "outputPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/haihong.lu/.nuget/NuGet/NuGet.Config"
@@ -93,14 +93,14 @@
         }
       }
     },
-    "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj": {
+    "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj",
+        "projectUniqueName": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj",
         "projectName": "NetcoreMvcTest",
-        "projectPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj",
+        "projectPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj",
         "packagesPath": "/Users/haihong.lu/.nuget/packages/",
-        "outputPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/obj/",
+        "outputPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/haihong.lu/.nuget/NuGet/NuGet.Config"
@@ -115,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj": {
-                "projectPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj"
+              "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj": {
+                "projectPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj"
               }
             }
           }

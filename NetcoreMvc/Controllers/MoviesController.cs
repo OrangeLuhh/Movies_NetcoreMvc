@@ -86,8 +86,12 @@ namespace BasicASP.NETMvc.Controllers
             Movie movie)
         {
             // # homework 5 -- save data to loacl-db
-            db.Movies.Add(movie);
-            db.SaveChanges();
+            if (ModelState.IsValid)
+            {
+                db.Movies.Add(movie);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
 
             return View(movie);
         }

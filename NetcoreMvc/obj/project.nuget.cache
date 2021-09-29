@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "smkEPYqOOmqAlJzdVV85hOKv/yrljkV7CNLLLUaFwoHvDWzS+hJrSwQeMPC6JPku+RMXz7sgriJ8pg+lV1mDWw==",
+  "dgSpecHash": "iTaICbDruzsAY5/MokYO/Mc4VcqfRr5gEsESxoXw8ONiPtMQ+x+O+ecgIFdhrwL/nPRNZxacgiHfNqGThsWThw==",
   "success": true,
-  "projectFilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
+  "projectFilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
   "expectedPackageFiles": [
     "/Users/haihong.lu/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/Users/haihong.lu/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

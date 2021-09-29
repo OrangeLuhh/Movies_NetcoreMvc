@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj": {}
+    "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj": {}
   },
   "projects": {
-    "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj": {
+    "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj",
+        "projectUniqueName": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj",
         "projectName": "NetcoreMvcOrigin",
-        "projectPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj",
+        "projectPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcOrigin/NetcoreMvcOrigin.csproj",
         "packagesPath": "/Users/haihong.lu/.nuget/packages/",
-        "outputPath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcOrigin/obj/",
+        "outputPath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcOrigin/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/haihong.lu/.nuget/NuGet/NuGet.Config"

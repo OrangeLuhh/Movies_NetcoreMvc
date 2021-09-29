@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = NetcoreMvcTest
-build_property.ProjectDir = /Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/
+build_property.ProjectDir = /Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/

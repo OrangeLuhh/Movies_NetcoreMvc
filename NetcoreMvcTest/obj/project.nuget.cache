@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gth3N8uBgdxxM4N+ODjXwRx2Ov5wGjG3Hl9PGPa9cXi8E1PedeCJhRdHaMbQswRwUdJiv0TjJHVqod4ehVbSwg==",
+  "dgSpecHash": "Hn/YhSQ/czmApg3YsReYdoqj7iA+iYsxQ2AQQdXbuTXHlnDsVTa6pKJezTVWaIuMnjSGt/jxjO9tx20Atf0wLw==",
   "success": true,
-  "projectFilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj",
+  "projectFilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvcTest/NetcoreMvcTest.csproj",
   "expectedPackageFiles": [
     "/Users/haihong.lu/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/Users/haihong.lu/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
