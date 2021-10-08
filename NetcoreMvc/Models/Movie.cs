@@ -32,10 +32,6 @@ namespace BasicASP.NETMvc.Models
 
     public class MovieDBContext : DbContext
     {
-        public MovieDBContext()
-        {
-        }
-
         public MovieDBContext(DbContextOptions<MovieDBContext> options)
             : base(options)
         {

@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
+  "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/NetcoreMvc.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,73 +15619,73 @@
   "RootNamespace": "NetcoreMvc",
   "Documents": [
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/ActionResult/Index.cshtml",
-      "TargetPath": "Views\\ActionResult\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Movies/Index.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Movies/Index.cshtml",
       "TargetPath": "Views\\Movies\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Movies/Create.cshtml",
-      "TargetPath": "Views\\Movies\\Create.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Movies/Details.cshtml",
-      "TargetPath": "Views\\Movies\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Auth/Page.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Auth/Page.cshtml",
       "TargetPath": "Views\\Auth\\Page.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/ActionResult/Index.cshtml",
+      "TargetPath": "Views\\ActionResult\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Movies/Edit.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Movies/Create.cshtml",
+      "TargetPath": "Views\\Movies\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Movies/Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Movies/Edit.cshtml",
       "TargetPath": "Views\\Movies\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Movies/Delete.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Auth/Login.cshtml",
+      "TargetPath": "Views\\Auth\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Movies/Delete.cshtml",
       "TargetPath": "Views\\Movies\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/haihong.lu/workspace/NetcoreMvc/NetcoreMvc/Views/Auth/Login.cshtml",
-      "TargetPath": "Views\\Auth\\Login.cshtml",
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

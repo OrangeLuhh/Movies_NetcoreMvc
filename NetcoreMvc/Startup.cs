@@ -41,7 +41,10 @@ namespace NetcoreMvc
 
             services.AddHttpContextAccessor();
 
-            services.AddDbContext<MovieDBContext>(options => options.UseSqlite(Configuration.GetConnectionString("MovieDBContext")));
+            //services.AddDbContext<MovieDBContext>(options => options.UseSqlite(Configuration.GetConnectionString("MovieDBContext")));
+            services.AddDbContext<MovieDBContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("MovieDBContext"))
+            );
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, option =>
