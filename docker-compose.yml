@@ -1,0 +1,43 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  #服务名称
+  moviesapp:
+    #容器名称
+    container_name: MoviesApp
+    #镜像名称
+    image: movies
+    build:
+      context: /Users/haihong.lu/workspace/Movies_NetcoreMvc/NetcoreMvc/bin/debug/net5.0/publish
+      dockerfile: Dockerfile
+    #端口映射
+    ports:
+      - 8060:80
+    networks: 
+      - "movies_network"
+  #服务名称
+  mssql:
+    #容器名称
+    container_name: Movies_DB
+    #镜像名称
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    #总是重启后启动
+    restart: always
+    #端口映射
+    ports:
+      - 1433:1433
+    #挂载
+    volumes:
+      - /Users/haihong.lu/db/mssql/backup_20211004:/var/opt/mssql
+    #环境变量
+    environment:
+      - ACCEPT_EULA=Y
+      #SA用户密码最少8位,sqlServer的要求
+      - SA_PASSWORD=Luhaihong~8
+    networks: 
+      - "movies_network"
+networks: 
+  movies_network: 
+    driver: bridge
